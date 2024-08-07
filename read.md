@@ -1,6 +1,7 @@
-/*
-Lesson 1 
-проект начинается с команды npm init -y
+
+<!-- Lesson 1 
+проект начинается с команды :
+    npm init -y
 ----------------------------------------описание--------------------------------------------------------------
 Команда npm init -y выполняет инициализацию нового проекта Node.js с помощью npm (Node Package Manager)
  и создает файл package.json с настройками по умолчанию. Это сокращенная версия команды npm init, 
@@ -13,12 +14,12 @@ Lesson 1
 */
 
 после этого у нас создается папка package.json 
-в моём случае вот так вот :
-------------------------------------
+в моём случае вот так вот : -->
+---------------------------------------------------------------------------------------------------------------
 {
   "name": "grammylesson",
   "version": "1.0.0",
-  "description": "/*\r Lesson 1 \r проект начинается с команды npm init -y\r ----------------------------------------описание--------------------------------------------------------------\r Команда npm init -y выполняет инициализацию нового проекта Node.js с помощью npm (Node Package Manager)\r  и создает файл package.json с настройками по умолчанию. Это сокращенная версия команды npm init, \r  которая задает проекту несколько вопросов для настройки, таких как имя проекта, версия, описание, \r  точка входа, команда тестирования и т. д.",
+  "description": " Lesson 1" 
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,18 +29,18 @@ Lesson 1
   "license": "ISC"
 }
 
-;welcome system for users 
+<!-- welcome system for users  -->
   bot.command(['sey_hello', 'hello', 'sey_hi'], async (ctx) => {
     await ctx.reply("Hello")
 })
 
-// command for reply to voice message
-// first way 1
+<!-- // command for reply to voice message -->
+<!-- // first way 1 -->
 // bot.on('message:voice', async (ctx) => {
 //     await ctx.reply('Получили голосовое !')
 
 // })
-// secend way 2
+<!-- // secend way 2 -->
 // bot.on(':voice', async (ctx) => {
 //     await ctx.reply('Получили голосовое !')
 
