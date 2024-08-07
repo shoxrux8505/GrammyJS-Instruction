@@ -1,5 +1,5 @@
 
-<!-- Lesson 1 
+**<!-- Lesson 1 
 проект начинается с команды :
     npm init -y
 ----------------------------------------описание--------------------------------------------------------------
@@ -14,7 +14,7 @@
 */
 
 после этого у нас создается папка package.json 
-в моём случае вот так вот : -->
+в моём случае вот так вот : -->**
 ---------------------------------------------------------------------------------------------------------------
 {
   "name": "grammylesson",
@@ -29,13 +29,13 @@
   "license": "ISC"
 }
 
-<!-- welcome system for users  -->
+**welcome system for users**
   bot.command(['sey_hello', 'hello', 'sey_hi'], async (ctx) => {
     await ctx.reply("Hello")
 })
 
-<!-- // command for reply to voice message -->
-<!-- // first way 1 -->
+// # command for reply to voice message
+//  #first way 1
 // bot.on('message:voice', async (ctx) => {
 //     await ctx.reply('Получили голосовое !')
 
